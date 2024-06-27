@@ -13,5 +13,5 @@ include_directories(Eigen/)
 # find_package(Threads MODULE REQUIRED)
 find_package(drake CONFIG REQUIRED PATHS /opt/drake)
 
-# add_executable(main src/main.cpp)
+add_executable(main src/main.cpp)
 target_link_libraries(main drake::drake Eigen3::Eigen)
