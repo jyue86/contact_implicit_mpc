@@ -2,7 +2,7 @@ directives:
   # allegro hand
   - add_model:
     name: allegro_hand
-    file: package://drake_models/allegro_hand_description/urdf/allegro_hand_description_left.urdf
+    file: package://drake/models/allegro_hand_description/urdf/allegro_hand_description_left.urdf
   
   - add_weld:
     parent: world
