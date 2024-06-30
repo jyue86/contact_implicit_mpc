@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>contact_implicit_mpc</name>
+  <version>0.0.0</version>
+  <description>
+    Contact Implicit Implementation using Inverse Dynamics TrajOpt.
+  </description>
+  <maintainer email="an@umich.edu">An Dang</maintainer>
+  <author>An Dang</author>
+  <license>N/A</license>
+</package>

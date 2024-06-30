@@ -1,0 +1,9 @@
+directives:
+
+# Add allegro hand
+- add_model:
+    name: spinner
+    file: package://contact_implicit_mpc/sdf/spinner.urdf
+# - add_weld:
+#     parent: world
+#     child: base
