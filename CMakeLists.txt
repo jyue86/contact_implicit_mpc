@@ -13,5 +13,5 @@ include_directories(Eigen/)
 # find_package(Threads MODULE REQUIRED)
 find_package(drake CONFIG REQUIRED PATHS /opt/drake)
 
-add_executable(main src/examples/allegro_setup_main.cpp)
+add_executable(allegro_ex src/examples/allegro_setup_main.cpp)
 target_link_libraries(allegro_ex drake::drake Eigen3::Eigen)
